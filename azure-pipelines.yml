@@ -7,9 +7,10 @@ trigger:
 - master
 
 pool:
-  name: Hosted Agent
+  name: Testpool
 
   vmImage: ubuntu-latest
+  
 
 steps:
 - task: Maven@3
